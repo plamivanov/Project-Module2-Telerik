@@ -1,0 +1,68 @@
+<div class="fadeInLeft recipe-desc-main">
+    <div class="recipe-desc">
+        <figure>
+            <img class="recipe-image" id="recipe-image" src="" alt="" />
+            <a href="#" id="recipe-time" class="tag"></a> 
+        </figure>
+        <div class="recipe-desc-inner">
+            <h1 id="recipe-title"></h1>
+            <p id="recipe-decription">
+             
+            </p>
+            <div class="recipes-ingredients">
+                <h2>INGREDIENTS:</h2>
+                <div id="recipe-ingredients">
+                    <ul id="ingredients-list">
+                        
+                    </ul>
+                    
+                </div>
+            </div>
+            <div class="manage">
+                <button class="green-button" id="edit-recipe">Edit</button>
+                <button class="green-button" id="remove-recipe">Remove</button>
+                <button id="add-recipe" class="green-button" type="button">Create New Recipe</button>
+            </div>
+        </div>
+    </div>
+    <div id="modalEdit" class="modal">
+        <div class="modal-content">
+                <span class="close" id="close-edit">&times;</span>
+                <article class="main-content">
+
+                    <header>
+                        <h1>Edit Recipe</h1>
+                    </header>
+                    <div class="form-group">
+                        <label>Recipe Title</label>
+                        <input value="" class="input-control" id="title-edit" />
+                    </div>
+                    <div class="form-group">
+                        <label>Ready In</label>
+                        <input value="" class="input-control" id="readyin-edit" />
+                    </div>
+                    <div class="form-group">
+                        <label>Image URL</label>
+                        <input value="" class="input-control" id="image-url-edit" />
+                    </div>
+                    <div class="form-group">
+                           <div class="image-display" style="">
+                               <img id="edit-recipe-image" src="" alt="Not Valid Image" style="width:250px; height:150px;background:#777; padding:0.2em;"/>
+                           </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Description</label>
+                        <textarea class="input-control" rows="10" id="description-edit" value=""></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Ingredients</label>
+                        <textarea class="input-control" rows="7" id="ingredients-edit"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>&nbsp;</label>
+                        <input type="button" class="form-button" id="edit-real-recipe" value="Edit Recipe" />
+                    </div>
+                </article>
+            </div>
+    </div>
+</div>

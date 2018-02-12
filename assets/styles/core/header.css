@@ -1,0 +1,108 @@
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.navbar-component .area{
+    margin:0 auto;
+}
+.header-container a {
+    text-decoration: none;
+    -webkit-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+    cursor: pointer;
+}
+
+.navbar-component {
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12);
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+
+
+.navbar .logo {
+    float:left;
+    font-size: 1.45em;
+    margin: 0;
+}
+
+.navbar .logo a {
+    display: block;
+    color: #34495e;
+    line-height: 64px;
+}
+
+.list{
+ float:right;
+}
+.list ul li{
+    float:left;
+    margin-left: 1em;
+}
+.list ul li form{
+    border: 1px solid #b89e9e17;
+    padding: 0 0.4em;
+}
+
+#search-recipe{
+    border: 1px solid #f0f5fa;
+    padding: 0.3em;
+}
+#find-recipe{
+ background:#34495e;
+ color:white;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .navbar-component .area {
+        margin-left: 20px !important;
+    }
+}
+
+/* @media (max-width: 898px) {
+    .app-container {
+        margin-top: 2.4em;
+    }
+} */
+
+@media (min-width: 768px) {
+    .navbar-component .area {
+        width: 85%;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-component .area {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navbar-component .area {
+        width: 70%;
+        
+    }
+}
+@media (max-width: 492px) {
+    .list{
+        margin:0 auto;
+        float:none;
+        margin-bottom:0.5em;
+    }
+    .navbar .logo a{
+        margin:0 auto;
+        line-height: 1.2em;
+    } 
+    .app-container {
+        margin-top: 3.8em;
+    }
+}

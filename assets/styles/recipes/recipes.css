@@ -1,0 +1,26 @@
+.recipes-component {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    max-width: 70%;
+    /* height: 100%; */
+    padding-top: 50px;
+    /* overflow: hidden; */
+}
+
+.recipes-list-component {
+    order: 1;
+    flex-grow: 1;
+    flex-basis:  50%;
+    /* height: 85%; */
+}
+
+.recipe-details-component {
+    order: 2;
+    flex-grow: 1;
+    flex-basis:  50%;
+    /* height: 90%; */
+    margin-bottom: 2em;
+}

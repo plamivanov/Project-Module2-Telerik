@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Recipe Book</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/styles/core/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/styles/core/header.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/styles/recipes/recipes.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/styles/recipes/recipes-list.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/styles/recipes/recipe-details.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/styles/recipes/addRecipe.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/styles/recipes/awesomplete.css" />
+</head>
+
+
+<body>
+    <header class="header-container"></header>
+    <div class="app-container"></div>
+
+    <script src="./libraries/jquery.min.js"></script>
+    <script src="./libraries/jquery.easyPaginate.js"></script>
+    <script src="./libraries/awesomplete.min.js"></script>
+    <script type="module" src="./services/db-service/database-service.js"></script>
+    <script type="module" src="./controllers/recipes/recipes-service.js"></script>
+    <script type="module" src="./controllers/recipes/recipes.js"></script>
+    <script type="module" src="./controllers/recipes/recipes-list.js"></script>
+    <script type="module" src="./controllers/recipes/recipe-details.js"></script>
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
